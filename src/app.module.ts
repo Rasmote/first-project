@@ -7,7 +7,7 @@ import { WelcomeService } from './welcome/welcome.service';
 
 @Module({
   imports: [WelcomeModule],
-  controllers: [AppController, WelcomeController],
+  controllers: [AppController],
   providers: [AppService, WelcomeService],
 })
 export class AppModule { }
